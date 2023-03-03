@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    
+    font-family: "Kodchasan",sans-serif; 
+}
+
+
+.login{
+width: 100vw;
+height: 100vh;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+background: linear-gradient(20deg,  rgba(0,0,0,1), #24FF00, #23a6d5, #23d5ab);
+background-size: 400% 400%;
+animation: gradient 15s ease infinite;
+color: aliceblue;
+
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.loginMain{
+    width: 76vw;
+    height: 73vh;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.leftLogin{
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    width: 63%;
+    align-items: center;
+    margin-top: 6vh;
+
+}
+.logo{
+    
+    width: 40vh;
+}
+
+.rightLogin{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #0E700C;
+    width: 37%;
+    align-items: center;
+}
+
+h1{
+    align-self: center;
+    margin-top: 15%;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+
+.gif{
+    width: 20vw;
+}
+
+.inputsArea{
+    display: flex;
+    flex-direction: column;
+    margin-top: 6vh;
+    width: 23vw;
+    height: 45vh;
+    justify-content: space-between;
+}
+
+
+.footer{
+    display: flex;
+    position: absolute;
+    top: 90vh;
+}
+
+@media screen and (max-width:500px) {
+    .leftLogin{
+        display: none;
+    }
+    .rightLogin{
+        width: 100%;
+    }
+    .inputsArea{
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+    
+   
+    
+}
+

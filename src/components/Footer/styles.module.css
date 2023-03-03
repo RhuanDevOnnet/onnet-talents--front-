@@ -1,0 +1,17 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    float: center;
+    align-items: center;
+    width: 76vw;
+    
+    font-weight: 700;
+    font-size: 15px;
+    top: 90vh;
+}
+
+.logo{
+    width: 120px;
+    height: 60px;
+}
+

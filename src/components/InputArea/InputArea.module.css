@@ -1,0 +1,51 @@
+
+
+.title{
+    display: block;
+    float: left;
+    margin-bottom: 5px;
+}
+
+.inputArea{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 2vh;
+    width: 100%;
+}
+
+.input{
+    width: 23vw;
+    height: 5vh;
+    border-radius: 5px;
+    padding: 8px;
+    color: black;
+    
+    outline: none;
+
+}
+.blue{
+    background-color: blue;
+}
+
+
+@media screen and (max-width:500px) {
+    .input{
+        width: 80%;
+    }
+
+    .inputArea{
+        align-items: center;
+    }
+    .title{
+        display: flex;
+        width: 80%;
+
+    }
+    label{
+        width:100%
+    }
+
+
+    
+}

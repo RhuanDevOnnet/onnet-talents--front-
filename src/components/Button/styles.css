@@ -1,0 +1,29 @@
+.containerBtn{
+    text-align: center;
+    background-color: #025373;
+    color: #F2F2F2;
+    font-weight: 500;
+    font-family: 'Roboto';
+    cursor: pointer;
+    width: 23vw;
+    height: 50px;
+    margin-right: 2vh;
+    border-radius: 5px;
+    margin-top: 2vh;
+    
+}
+
+.colorBlue{
+    background-color: #001A75;
+    
+}
+
+.txt{
+    font-size: 1.3vw;
+}
+
+@media screen and (max-width:500px) {
+   
+
+    
+}

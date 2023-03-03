@@ -1,0 +1,33 @@
+.divHeader{
+    display: flex;
+    background-color: #EEF2F2;
+    height: 12vh;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+}
+
+.logo{
+    width: 25vh;
+    height: 15vh;
+    margin-left: 2vh;
+}
+.about{
+    width: 10vw;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5vw;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.link{
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color:black;
+}

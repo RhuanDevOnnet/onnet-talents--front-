@@ -1,0 +1,39 @@
+.card{
+    width:13vw;
+    height: 15vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+
+.img{
+    width: 5vw;
+    height: 5vw;
+    margin-bottom: 2vh;
+
+}
+
+.text{
+    font-size: 1.2vw;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.link{
+    width:13vw;
+    height: 15vw;
+    text-decoration: none;
+}
+
+.card:hover {
+    box-shadow: 0 5px 35px 0px rgba(0,0,0,0.2);
+    
+  }
